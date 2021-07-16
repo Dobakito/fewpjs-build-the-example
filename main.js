@@ -3,10 +3,10 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 const likeBtn = document.querySelector('.like-glyph')
 let clicked = false
-const errorMessage = document.querySelector('#modal')
 // Your JavaScript code goes here!
 
 function hideError() {
+  const errorMessage = document.querySelector('#modal')
   errorMessage.className = 'hidden'
 }
 
